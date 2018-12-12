@@ -12,6 +12,9 @@ body{
     border-bottom: 2px solid red;
     font-weight: bold;
 }
+.list .last{
+    border-bottom: none;
+}
 .list .heading:hover{
     background: none;
 }
@@ -22,11 +25,13 @@ body{
     font-size: 22px;
     width: 550px;
     padding: 0 !important;
+    border-radius: 2px;
+    box-shadow: 3px 3px 6px grey;
 }
 .list li{
     list-style: none;
     padding: 10px;
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted black;
     text-transform: capitalize;
     text-indent: 25px;
     height: auto;

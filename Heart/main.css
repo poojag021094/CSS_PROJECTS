@@ -1,0 +1,31 @@
+
+.heart{
+    width: 192px;
+    height: 160px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.heart::before{
+    width: 96px;
+    height: 160px;
+    content: "\2665";
+    color: #ff0000;
+    background-color:#ff0000;
+    border-radius: 96px 96px 0 0 ;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+    position: absolute;
+}
+.heart::after{
+    width: 96px;
+    height: 160px;
+    content: "\2665";
+    color: #ff0000;
+    background-color:#ff0000;
+    border-radius: 96px 96px 0 0 ;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    position: absolute;
+    left: 96px;
+}

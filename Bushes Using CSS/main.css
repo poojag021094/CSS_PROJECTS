@@ -1,0 +1,35 @@
+.container{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.bushes{
+    position: absolute;
+    width: 80px;
+    height: 230px;
+    background-color: #32CD32;
+    border-radius: 96px;
+    border: 5px dotted #228B22;
+}
+.bushes::before{
+    position: absolute;
+    content: " ";
+    width: 70px;
+    height: 180px;
+    background-color: #228B22;
+    border: 5px dotted #32cd32;
+    left: 80px;
+    border-radius: 96px 96px 96px 96px;
+    top: 45px;
+}
+.bushes::after{
+    position: absolute;
+    content: " ";
+    width: 180px;
+    height: 70px;
+    background-color: #98FB98;
+    border: 5px dotted #32CD32;
+    border-radius:150px 96px 96px 0;
+    top: 155px;
+    left: 30px;
+}

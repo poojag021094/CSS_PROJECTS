@@ -1,0 +1,37 @@
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 50px;
+    top: 50px;
+}
+.bird{
+    width: 60px;
+    height: 96px;
+    border-right: 30px solid #c74c2c;
+    border-radius: 50%;
+    transform: skewX(-5deg);
+    position: absolute;
+}
+.bird::before{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    content: "\2022";
+    border: 8px solid #A52A2A;
+    border-radius: 90% 90% 90% 0;
+    top: 27px;
+    left: 27px;
+}
+.bird::after{
+    position: absolute;
+    width: 0;
+    height: 16px;
+    content: " ";
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 32px solid #A52A2A;
+    border-right: 32px solid #A52A2A;
+    top: 30px;
+    left: 60px;
+}

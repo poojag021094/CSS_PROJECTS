@@ -39,3 +39,27 @@
     top:330px;
     left: 0px; 
 }
+.container2{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 50px;
+    left: 50px;
+}
+.youtube{
+    width: 180px;
+    height: 130px;
+    background-color: darkred;
+    border-radius: 30px;
+    margin-left: 120px;
+}
+.triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top:30px solid transparent;
+    border-left: 55px solid white;
+    border-bottom: 30px solid transparent;
+    border-right: 20px solid transparent;
+    margin: 35px 30px 30px 65px;
+}
